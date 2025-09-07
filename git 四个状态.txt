@@ -1,0 +1,7 @@
+git 四个状态
+   Untracked 未被追踪的（尚未加入git仓库）
+   Unmodified
+   Modified
+   Staged  暂存的文件
+   
+   一个Untracked文件加入仓库成为Staged文件，再通过commit上传成为Unmodifide文件，Unmodified文件经过修改再成为Modified文件，再暂存成为Staged文件，通过commit成为Unmodified文件。当将Unmodified文件移除仓库就成为了Untracked文件
